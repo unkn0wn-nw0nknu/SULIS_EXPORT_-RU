@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <ul>
+        <li><a href="S:\HTML\gyakorló1.html">Home</a></li>
+        <li><a href="S:\HTML\gyakorló1.html">About</a></li>
+        <li><a href="S:\HTML\gyakorló1.html">Cart</a></li>
+    </ul>
+    <h1>How to build a webpage?</h1>
+    <p></p>
+    <h3>Steps:</h3>
+    <ol>
+        <li>You will need:
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Web browser</li>
+                <li>A snack</li>
+            </ul>
+        </li>
+        <li>Create a new HTML file</li>
+        <li>Write Code</li>
+        <li>Check in browser</li>
+    </ol>
+
+    <table>
+        <caption>Elements I know</caption>
+        <thead>
+            <tr>
+                <th>TagName</th>
+                <th>Attribute</th>
+                <th>SelfClosed(Y/N)</th>
+                <th>Block(Y/N)</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>h1</td>
+                <td>-</td>
+                <td>N</td>
+                <td>Y</td>
+            </tr>
+            <tr>
+                <td>img</td>
+                <td rowspan="2">href</td>
+                <td>Y</td>
+                <td>N</td>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td colspan="2">N</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Add more...</td>
+        </tfoot>
+    </table>
+
+    <h3>Form:</h3>
+    <form action="">
+        <div>
+            <label for="userName">Username:</label> <!--A for="" helyére az input id-je kell-->
+            <input type="text" name="userName" id="userName">
+        </div>
+        <div>
+            <label for="userAge">Age</label>
+            <input type="number" name="userAge" id="userAge">
+        </div>
+        <div>
+            <label for="Introduction">About me</label>
+            <textarea name="Introduction" id="Introduction" cols="30" rol="5"></textarea>
+        </div>
+    </form>
+</body>
+</html>
