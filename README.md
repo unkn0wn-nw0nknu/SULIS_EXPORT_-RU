@@ -9,3 +9,5 @@ All credits to me >;-;<
 I used my brain, computer, HTML, CSS, JPG, JPEG and PNG files for this project.
 
 I'll update this later on, there's gonna be a lot of other things (yippie.) (._.)
+
+These programs/mark up files aren't my first files/programs ever, they're just made in school.
